@@ -1,0 +1,200 @@
+Jan 28 09:52:45 server-01 apache2[6307]: Starting user session
+Jan 28 09:53:15 server-01 cron[6176]: Network interface up
+Jan 28 09:53:45 server-01 postfix[4254]: Disk usage at 75%
+Jan 28 09:54:15 server-01 kernel[5575]: Network interface up
+Jan 28 09:54:45 server-01 systemd[8268]: Backup completed
+Jan 28 09:55:15 server-01 apache2[1870]: Starting user session
+Jan 28 09:55:45 server-01 apache2[1920]: Disk usage at 75%
+Jan 28 09:56:15 server-01 systemd[6626]: Network interface up
+Jan 28 09:56:45 server-01 cron[1947]: Network interface up
+Jan 28 09:57:15 server-01 systemd[3893]: Backup completed
+Jan 28 09:57:45 server-01 postfix[9214]: Backup completed
+Jan 28 09:58:15 server-01 kernel[6833]: Configuration reloaded
+Jan 28 09:58:45 server-01 kernel[2737]: Configuration reloaded
+Jan 28 09:59:15 server-01 apache2[9453]: Service started successfully
+Jan 28 09:59:45 server-01 kernel[7493]: Service started successfully
+Jan 28 10:00:15 server-01 postfix[8351]: Network interface up
+Jan 28 10:00:45 server-01 systemd[7778]: Service started successfully
+Jan 28 10:01:15 server-01 systemd[8572]: Network interface up
+Jan 28 10:01:45 server-01 systemd[8872]: Backup completed
+Jan 28 10:02:15 server-01 cron[2732]: Configuration reloaded
+Jan 28 10:02:45 server-01 apache2[7759]: Backup completed
+Jan 28 10:03:15 server-01 kernel[2997]: Starting user session
+Jan 28 10:03:45 server-01 kernel[4584]: Certificate will expire in 30 days
+Jan 28 10:04:15 server-01 apache2[5920]: Starting user session
+Jan 28 10:04:45 server-01 apache2[4574]: Configuration reloaded
+Jan 28 10:05:15 server-01 cron[8396]: Network interface up
+Jan 28 10:05:45 server-01 postfix[7184]: Network interface up
+Jan 28 10:06:15 server-01 systemd[7124]: Certificate will expire in 30 days
+Jan 28 10:06:45 server-01 postfix[6814]: Disk usage at 75%
+Jan 28 10:07:15 server-01 apache2[6038]: Network interface up
+Jan 28 10:07:45 server-01 systemd[1420]: Backup completed
+Jan 28 10:08:15 server-01 kernel[3421]: Starting user session
+Jan 28 10:08:45 server-01 kernel[7440]: Starting user session
+Jan 28 10:09:15 server-01 kernel[2516]: Configuration reloaded
+Jan 28 10:09:45 server-01 apache2[3609]: Certificate will expire in 30 days
+Jan 28 10:10:15 server-01 apache2[2606]: Service started successfully
+Jan 28 10:10:45 server-01 postfix[6124]: Configuration reloaded
+Jan 28 10:11:15 server-01 cron[8258]: Configuration reloaded
+Jan 28 10:11:45 server-01 kernel[2696]: Network interface up
+Jan 28 10:12:15 server-01 postfix[4494]: Service started successfully
+Jan 28 10:12:45 server-01 postfix[5430]: Certificate will expire in 30 days
+Jan 28 10:13:15 server-01 apache2[8932]: Disk usage at 75%
+Jan 28 10:13:45 server-01 cron[9020]: Disk usage at 75%
+Jan 28 10:14:15 server-01 postfix[3753]: Service started successfully
+Jan 28 10:14:45 server-01 postfix[1044]: Service started successfully
+Jan 28 10:15:15 server-01 systemd[9703]: Backup completed
+Jan 28 10:15:45 server-01 cron[2923]: Backup completed
+Jan 28 10:16:15 server-01 kernel[8504]: Configuration reloaded
+Jan 28 10:16:45 server-01 postfix[8205]: Network interface up
+Jan 28 10:17:15 server-01 postfix[3103]: Certificate will expire in 30 days
+Jan 28 10:17:45 server-01 kernel[7586]: Disk usage at 75%
+Jan 28 10:18:15 server-01 postfix[7147]: Disk usage at 75%
+Jan 28 10:18:45 server-01 cron[2393]: Backup completed
+Jan 28 10:19:15 server-01 apache2[2969]: Configuration reloaded
+Jan 28 10:19:45 server-01 apache2[1677]: Certificate will expire in 30 days
+Jan 28 10:20:15 server-01 cron[6585]: Backup completed
+Jan 28 10:20:45 server-01 systemd[5944]: Network interface up
+Jan 28 10:21:15 server-01 systemd[7285]: Starting user session
+Jan 28 10:21:45 server-01 cron[3609]: Backup completed
+Jan 28 10:22:15 server-01 postfix[4533]: Certificate will expire in 30 days
+Jan 28 10:22:45 server-01 cron[9100]: Network interface up
+Jan 28 10:23:15 server-01 systemd[9686]: Service started successfully
+Jan 28 10:23:45 server-01 kernel[2385]: Network interface up
+Jan 28 10:24:15 server-01 apache2[1672]: Network interface up
+Jan 28 10:24:45 server-01 cron[7464]: Backup completed
+Jan 28 10:25:15 server-01 systemd[1731]: Service started successfully
+Jan 28 10:25:45 server-01 postfix[5717]: Service started successfully
+Jan 28 10:26:15 server-01 apache2[4967]: Service started successfully
+Jan 28 10:26:45 server-01 apache2[1969]: Certificate will expire in 30 days
+Jan 28 10:27:15 server-01 apache2[7946]: Configuration reloaded
+Jan 28 10:27:45 server-01 systemd[7602]: Backup completed
+Jan 28 10:28:15 server-01 postfix[8797]: Disk usage at 75%
+Jan 28 10:28:45 server-01 systemd[3438]: Disk usage at 75%
+Jan 28 10:29:15 server-01 systemd[4210]: Network interface up
+Jan 28 10:29:45 server-01 apache2[9722]: Certificate will expire in 30 days
+Jan 28 10:30:15 server-01 systemd[5071]: Backup completed
+Jan 28 10:30:45 server-01 apache2[2373]: Disk usage at 75%
+Jan 28 10:31:15 server-01 kernel[6851]: Network interface up
+Jan 28 10:31:45 server-01 systemd[6133]: Service started successfully
+Jan 28 10:32:15 server-01 kernel[4321]: Configuration reloaded
+Jan 28 10:32:45 server-01 kernel[9337]: Configuration reloaded
+Jan 28 10:33:15 server-01 apache2[8104]: Starting user session
+Jan 28 10:33:45 server-01 postfix[5935]: Network interface up
+Jan 28 10:34:15 server-01 systemd[1209]: Disk usage at 75%
+Jan 28 10:34:45 server-01 systemd[2245]: Disk usage at 75%
+Jan 28 10:35:15 server-01 systemd[2563]: Service started successfully
+Jan 28 10:35:45 server-01 postfix[9506]: Network interface up
+Jan 28 10:36:15 server-01 apache2[7744]: Service started successfully
+Jan 28 10:36:45 server-01 postfix[1595]: Backup completed
+Jan 28 10:37:15 server-01 apache2[1561]: Configuration reloaded
+Jan 28 10:37:45 server-01 cron[5868]: Network interface up
+Jan 28 10:38:15 server-01 apache2[3802]: Backup completed
+Jan 28 10:38:45 server-01 apache2[1323]: Configuration reloaded
+Jan 28 10:39:15 server-01 cron[2548]: Certificate will expire in 30 days
+Jan 28 10:39:45 server-01 cron[7681]: Starting user session
+Jan 28 10:40:15 server-01 cron[7974]: Disk usage at 75%
+Jan 28 10:40:45 server-01 cron[2202]: Configuration reloaded
+Jan 28 10:41:15 server-01 apache2[4762]: Backup completed
+Jan 28 10:41:45 server-01 postfix[3543]: Certificate will expire in 30 days
+Jan 28 10:42:15 server-01 postfix[1918]: Configuration reloaded
+Jan 28 10:42:45 server-01 kernel[5236]: Disk usage at 75%
+Jan 28 10:43:15 server-01 systemd[4816]: Service started successfully
+Jan 28 10:43:45 server-01 systemd[5077]: Service started successfully
+Jan 28 10:44:15 server-01 apache2[3044]: Service started successfully
+Jan 28 10:44:45 server-01 apache2[2382]: Service started successfully
+Jan 28 10:45:15 server-01 kernel[1497]: Configuration reloaded
+Jan 28 10:45:45 server-01 cron[8576]: Network interface up
+Jan 28 10:46:15 server-01 cron[6021]: Network interface up
+Jan 28 10:46:45 server-01 kernel[9581]: Service started successfully
+Jan 28 10:47:15 server-01 cron[4313]: Disk usage at 75%
+Jan 28 10:47:45 server-01 cron[3289]: Network interface up
+Jan 28 10:48:15 server-01 cron[6843]: Service started successfully
+Jan 28 10:48:45 server-01 systemd[4316]: Configuration reloaded
+Jan 28 10:49:15 server-01 systemd[4381]: Configuration reloaded
+Jan 28 10:49:45 server-01 cron[8448]: Network interface up
+Jan 28 10:50:15 server-01 apache2[6543]: Service started successfully
+Jan 28 10:50:45 server-01 apache2[9352]: Configuration reloaded
+Jan 28 10:51:15 server-01 systemd[7647]: Disk usage at 75%
+Jan 28 10:51:45 server-01 systemd[2650]: Certificate will expire in 30 days
+Jan 28 10:52:15 server-01 apache2[3921]: Service started successfully
+Jan 28 10:52:45 server-01 postfix[3477]: Disk usage at 75%
+Jan 28 10:53:15 server-01 kernel[2504]: Backup completed
+Jan 28 10:53:45 server-01 apache2[3557]: Configuration reloaded
+Jan 28 10:54:15 server-01 kernel[6796]: Service started successfully
+Jan 28 10:54:45 server-01 apache2[9435]: Service started successfully
+Jan 28 10:55:15 server-01 cron[8542]: Disk usage at 75%
+Jan 28 10:55:45 server-01 postfix[5195]: Service started successfully
+Jan 28 10:56:15 server-01 cron[3145]: Disk usage at 75%
+Jan 28 10:56:45 server-01 apache2[6368]: Service started successfully
+Jan 28 10:57:15 server-01 postfix[5863]: Configuration reloaded
+Jan 28 10:57:45 server-01 postfix[6824]: Service started successfully
+Jan 28 10:58:15 server-01 apache2[4987]: Configuration reloaded
+Jan 28 10:58:45 server-01 kernel[4019]: Service started successfully
+Jan 28 10:59:15 server-01 kernel[8428]: Disk usage at 75%
+Jan 28 10:59:45 server-01 kernel[2823]: Network interface up
+Jan 28 11:00:15 server-01 systemd[3298]: Backup completed
+Jan 28 11:00:45 server-01 apache2[2590]: Service started successfully
+Jan 28 11:01:15 server-01 postfix[4553]: Network interface up
+Jan 28 11:01:45 server-01 kernel[3533]: Service started successfully
+Jan 28 11:02:15 server-01 cron[3547]: Network interface up
+Jan 28 11:02:45 server-01 cron[2114]: Network interface up
+Jan 28 11:03:15 server-01 systemd[5163]: Network interface up
+Jan 28 11:03:45 server-01 postfix[5876]: Disk usage at 75%
+Jan 28 11:04:15 server-01 kernel[7051]: Disk usage at 75%
+Jan 28 11:04:45 server-01 kernel[8353]: Disk usage at 75%
+Jan 28 11:05:15 server-01 apache2[5754]: Starting user session
+Jan 28 11:05:45 server-01 kernel[3380]: Starting user session
+Jan 28 11:06:15 server-01 cron[7221]: Service started successfully
+Jan 28 11:06:45 server-01 postfix[5592]: Network interface up
+Jan 28 11:07:15 server-01 cron[2898]: Network interface up
+Jan 28 11:07:45 server-01 postfix[1791]: Service started successfully
+Jan 28 11:08:15 server-01 systemd[7164]: Starting user session
+Jan 28 11:08:45 server-01 cron[8821]: Starting user session
+Jan 28 11:09:15 server-01 cron[1579]: Network interface up
+Jan 28 11:09:45 server-01 cron[9286]: Backup completed
+Jan 28 11:10:15 server-01 postfix[7904]: Certificate will expire in 30 days
+Jan 28 11:10:45 server-01 cron[3417]: Backup completed
+Jan 28 11:11:15 server-01 systemd[8427]: Starting user session
+Jan 28 11:11:45 server-01 postfix[2871]: Configuration reloaded
+Jan 28 11:12:15 server-01 apache2[7131]: Disk usage at 75%
+Jan 28 11:12:45 server-01 apache2[5300]: Certificate will expire in 30 days
+Jan 28 11:13:15 server-01 systemd[1738]: Configuration reloaded
+Jan 28 11:13:45 server-01 systemd[3100]: Network interface up
+Jan 28 11:14:15 server-01 systemd[7674]: Configuration reloaded
+Jan 28 11:14:45 server-01 systemd[4738]: Disk usage at 75%
+Jan 28 11:15:15 server-01 systemd[3831]: Service started successfully
+Jan 28 11:15:45 server-01 postfix[2497]: Network interface up
+Jan 28 11:16:15 server-01 cron[7432]: Service started successfully
+Jan 28 11:16:45 server-01 kernel[2987]: Service started successfully
+Jan 28 11:17:15 server-01 systemd[2395]: Service started successfully
+Jan 28 11:17:45 server-01 apache2[2461]: Configuration reloaded
+Jan 28 11:18:15 server-01 systemd[7853]: Certificate will expire in 30 days
+Jan 28 11:18:45 server-01 kernel[2010]: Certificate will expire in 30 days
+Jan 28 11:19:15 server-01 kernel[2260]: Service started successfully
+Jan 28 11:19:45 server-01 cron[8593]: Certificate will expire in 30 days
+Jan 28 11:20:15 server-01 apache2[2106]: Starting user session
+Jan 28 11:20:45 server-01 apache2[4212]: Starting user session
+Jan 28 11:21:15 server-01 cron[3118]: Network interface up
+Jan 28 11:21:45 server-01 postfix[3169]: Configuration reloaded
+Jan 28 11:22:15 server-01 cron[2741]: Backup completed
+Jan 28 11:22:45 server-01 postfix[4501]: Certificate will expire in 30 days
+Jan 28 11:23:15 server-01 postfix[5377]: Network interface up
+Jan 28 11:23:45 server-01 postfix[6591]: Service started successfully
+Jan 28 11:24:15 server-01 systemd[1179]: Starting user session
+Jan 28 11:24:45 server-01 systemd[8370]: Service started successfully
+Jan 28 11:25:15 server-01 systemd[8150]: Configuration reloaded
+Jan 28 11:25:45 server-01 systemd[7214]: Network interface up
+Jan 28 11:26:15 server-01 apache2[7951]: Configuration reloaded
+Jan 28 11:26:45 server-01 postfix[1757]: Service started successfully
+Jan 28 11:27:15 server-01 systemd[3988]: Disk usage at 75%
+Jan 28 11:27:45 server-01 apache2[8317]: Certificate will expire in 30 days
+Jan 28 11:28:15 server-01 postfix[4388]: Backup completed
+Jan 28 11:28:45 server-01 systemd[7752]: Certificate will expire in 30 days
+Jan 28 11:29:15 server-01 kernel[9350]: Certificate will expire in 30 days
+Jan 28 11:29:45 server-01 apache2[4135]: Starting user session
+Jan 28 11:30:15 server-01 kernel[7230]: Configuration reloaded
+Jan 28 11:30:45 server-01 cron[7398]: Starting user session
+Jan 28 11:31:15 server-01 kernel[8021]: Backup completed
+Jan 28 11:31:45 server-01 apache2[2416]: Network interface up
+Jan 28 11:32:15 server-01 kernel[6771]: Network interface up

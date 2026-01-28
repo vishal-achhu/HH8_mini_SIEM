@@ -15,6 +15,13 @@ from collections import defaultdict
 import hashlib
 
 
+def normalize_datetime(dt: datetime) -> datetime:
+    """Remove timezone info to ensure naive datetime"""
+    if dt.tzinfo is not None:
+        return dt.replace(tzinfo=None)
+    return dt
+
+
 @dataclass
 class LogEvent:
     """Represents a normalized log event"""
@@ -50,7 +57,7 @@ class LogParser:
     
     @staticmethod
     def parse_timestamp(ts_str: str) -> datetime:
-        """Parse various timestamp formats"""
+        """Parse various timestamp formats and return naive datetime"""
         formats = [
             '%Y-%m-%d %H:%M:%S',
             '%Y-%m-%dT%H:%M:%S',
@@ -65,7 +72,8 @@ class LogParser:
                 # For syslog without year, add current year
                 if fmt == '%b %d %H:%M:%S':
                     dt = dt.replace(year=datetime.now().year)
-                return dt
+                # Always return naive datetime
+                return normalize_datetime(dt)
             except ValueError:
                 continue
         
@@ -470,17 +478,17 @@ class TimeCorrelationEngine:
         # Sliding window approach
         for i in range(len(events)):
             window_events = [events[i]]
-            start_time = datetime.fromisoformat(events[i]['timestamp'])
+            start_time = normalize_datetime(datetime.fromisoformat(events[i]['timestamp']))
             
             for j in range(i + 1, len(events)):
-                current_time = datetime.fromisoformat(events[j]['timestamp'])
+                current_time = normalize_datetime(datetime.fromisoformat(events[j]['timestamp']))
                 time_diff = current_time - start_time
                 
                 # Check if within time window
                 if time_diff <= time_window:
                     # Check max gap if specified
                     if max_gap:
-                        last_time = datetime.fromisoformat(window_events[-1]['timestamp'])
+                        last_time = normalize_datetime(datetime.fromisoformat(window_events[-1]['timestamp']))
                         gap = current_time - last_time
                         if gap > max_gap:
                             continue
@@ -557,6 +565,10 @@ class TimeCorrelationEngine:
         """
         cursor = self.db.conn.cursor()
         
+        # Normalize input datetimes
+        start_time = normalize_datetime(start_time)
+        end_time = normalize_datetime(end_time)
+        
         cursor.execute('''
             SELECT timestamp, event_type, severity, source
             FROM events
@@ -570,7 +582,7 @@ class TimeCorrelationEngine:
         buckets = defaultdict(lambda: {'events': [], 'count': 0, 'types': defaultdict(int)})
         
         for event in events:
-            event_time = datetime.fromisoformat(event['timestamp'])
+            event_time = normalize_datetime(datetime.fromisoformat(event['timestamp']))
             
             # Calculate bucket
             seconds_since_start = (event_time - start_time).total_seconds()
